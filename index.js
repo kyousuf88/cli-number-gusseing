@@ -1,8 +1,9 @@
+#! /usr/bin/env code
 import inquirer from "inquirer";
 // 1 computer will generate a random number
 // 2 user input for guessing number
 // 3 compare user input with computer generate number and show result
-const randomNumber = Math.floor(Math.random() * 10 + 1);
+const randomNumber = Math.floor(Math.random() * 6 + 1);
 const answers = await inquirer.prompt([
     {
         name: "userguessednumber",
