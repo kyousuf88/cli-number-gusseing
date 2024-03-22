@@ -1,6 +1,6 @@
 {
   "name": "kyousuf-cli-number-gusseing",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "cli number gusseing",
   "main": "index.js",
   "type": "module",
